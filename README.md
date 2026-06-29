@@ -29,7 +29,7 @@ If you're targeting IE10/11, use the compat version, and import a `Promise` poly
 ```js
 // Import a Promise polyfill
 import 'es6-promise/auto';
-import { get, set } from 'idb-keyval/dist/esm-compat';
+import { get, set } from 'idb-keyval/dist/compat.js';
 ```
 
 ### All bundles

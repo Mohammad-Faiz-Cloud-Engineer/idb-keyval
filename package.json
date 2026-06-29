@@ -72,11 +72,6 @@
     "tslib": "^2.8.1",
     "typescript": "^5.8.3"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{js,css,md,ts,html}": "prettier --write"
   }
